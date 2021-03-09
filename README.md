@@ -9,11 +9,11 @@ npm install @njshaoshao/we-theme-charts
 
 ## with yarn
 ```
-y add @njshaoshao/we-theme-charts
+yarn add @njshaoshao/we-theme-charts
 ```
 
 ## global use
-```
+```JavaScript
 import echarts from 'echarts';
 
 // import theme one by one
@@ -32,7 +32,7 @@ echarts.init(initDom, 'webar')
 ```
 
 ## use in init function
-```
+```JavaScript
 import echarts from 'echarts';
 
 // import theme one by one
